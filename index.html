@@ -1,0 +1,48 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //checking even or odd.
+        
+        let number=prompt("enter a number");
+        let d=(number%2==0)?"even number":"odd number";
+        console.log(d);
+
+
+        //checking temperature.
+
+        let temp =prompt("enter temperature");
+        let a = (temp < 10) ? "cold" :
+            (temp <= 19) ? "cool" :
+                (temp < 30) ? "warm" : "Hot";
+        console.log(a);
+        
+        //checking age.
+
+         let age=prompt("enter age");
+         let b=(age<=12)?"child":
+            (age>=13 && age<=19)?"Teen":
+            (age>=20 && age<=64)?"Adult":"Senior";
+            console.log(b);
+
+        //checking marks.
+
+         let marks=prompt("enter marks");
+         let c=(marks>=90)?"A grade":
+             (marks>=75 && marks<=89)?"B Grade":
+             (marks>=60 && marks<=74)?"C Grade":
+             (marks>=45 && marks<=59)?"D Grade":"F grade";
+             console.log(c);
+
+        
+    </script>
+</body>
+</html
